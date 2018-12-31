@@ -20,17 +20,25 @@
             "name": "STM32",
             "includePath": [
                 "${workspaceRoot}",
+                "${workspaceRoot}/Inc",
                 "${workspaceRoot}/inc",
                 "${workspaceRoot}/Drivers",
+                "${workspaceRoot}/Drivers/CMSIS",
+                "${workspaceRoot}/Drivers/STM32F1xx_HAL_Driver",
+                "${workspaceRoot}/Drivers/STM32F1xx_HAL_Driver/Inc",
                 "e:/Develop/lib/gcc/arm-none-eabi/8.2.1/include/",
                 "e:/Develop/lib/gcc/arm-none-eabi/8.2.1/include-fixed/",
                 "e:/Develop/arm-none-eabi/include/",
                 "e:/Develop/arm-none-eabi/include/machine",
                 "e:/Develop/arm-none-eabi/include/newlib-nano",
-                "e:/Develop/arm-none-eabi/include/sys"
+                "e:/Develop/arm-none-eabi/include/sys",
+                "e:/develop/bin/../lib/gcc/arm-none-eabi/8.2.1/include",
+                "e:/develop/bin/../lib/gcc/arm-none-eabi/8.2.1/include-fixed",
+                "e:/develop/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/include"
             ],
             "defines": [
                 "STM32F103xx",
+                "STM32F103xB",
                 "USE_FULL_LL_DRIVER",
                 "__DBL_MIN_EXP__= (-1021)",
                 "__HQ_FBIT__= 15",
@@ -446,13 +454,24 @@
                 "path": [
                     "${workspaceRoot}",
                     "${workspaceRoot}/src",
+                    "${workspaceRoot}/Inc",
                     "${workspaceRoot}/inc",
                     "${workspaceRoot}/Drivers",
+                    "${workspaceRoot}/Drivers/CMSIS",
+                    "${workspaceRoot}/Drivers/STM32F1xx_HAL_Driver",
+                    "${workspaceRoot}/Drivers/STM32F1xx_HAL_Driver/Inc",
+                    "${e:/Develop/arm-none-eabi/include/}",
                     "e:/Develop/lib/gcc/arm-none-eabi/8.2.1/include/",
                     "e:/Develop/lib/gcc/arm-none-eabi/8.2.1/include-fixed/",
-                    "e:/Develop/arm-none-eabi/include/"
+                    "e:/Develop/arm-none-eabi/include/",
+                    "e:/Develop/arm-none-eabi/include/machine",
+                    "e:/Develop/arm-none-eabi/include/newlib-nano",
+                    "e:/Develop/arm-none-eabi/include/sys",
+                    "e:/develop/bin/../lib/gcc/arm-none-eabi/8.2.1/include",
+                    "e:/develop/bin/../lib/gcc/arm-none-eabi/8.2.1/include-fixed",
+                    "e:/develop/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/include"
                 ],
-                "limitSymbolsToIncludedHeaders": true,
+                "limitSymbolsToIncludedHeaders": false,
                 "databaseFilename": "${workspaceRoot}/.vscode/browse.vc.db"
             }
         }

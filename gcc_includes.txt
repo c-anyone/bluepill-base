@@ -1,0 +1,29 @@
+# 1 "$null"
+# 1 "<built-in>"
+# 1 "<command-line>"
+# 1 "$null"
+1
+ignoring duplicate directory "c:/program files (x86)/gnu tools arm embedded/8 2018-q4-major/lib/gcc/../../lib/gcc/arm-none-eabi/8.2.1/include"
+ignoring nonexistent directory "c:\program files (x86)\gnu tools arm embedded\8 2018-q4-major\bin\../arm-none-eabi/tmp/jenkins/jenkins-GCC-8-build_toolchain_docker-519_20181216_1544945247/install-mingw/lib/gcc/arm-none-eabi/8.2.1/../../../../include"
+ignoring duplicate directory "c:/program files (x86)/gnu tools arm embedded/8 2018-q4-major/lib/gcc/../../lib/gcc/arm-none-eabi/8.2.1/include-fixed"
+ignoring duplicate directory "c:/program files (x86)/gnu tools arm embedded/8 2018-q4-major/lib/gcc/../../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/include"
+ignoring nonexistent directory "c:\program files (x86)\gnu tools arm embedded\8 2018-q4-major\bin\../arm-none-eabi/usr/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ c:\program files (x86)\gnu tools arm embedded\8 2018-q4-major\bin\../lib/gcc/arm-none-eabi/8.2.1/include
+ c:\program files (x86)\gnu tools arm embedded\8 2018-q4-major\bin\../lib/gcc/arm-none-eabi/8.2.1/include-fixed
+ c:\program files (x86)\gnu tools arm embedded\8 2018-q4-major\bin\../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/include
+
+
+e:\Develop\bin>.\arm-none-eabi-gcc -E -Wp,-v -xc $null > gcc_includes.txt
+ignoring duplicate directory "e:/develop/lib/gcc/../../lib/gcc/arm-none-eabi/8.2.1/include"
+ignoring nonexistent directory "e:\develop\bin\../arm-none-eabi/tmp/jenkins/jenkins-GCC-8-build_toolchain_docker-519_20181216_1544945247/install-mingw/lib/gcc/arm-none-eabi/8.2.1/../../../../include"
+ignoring duplicate directory "e:/develop/lib/gcc/../../lib/gcc/arm-none-eabi/8.2.1/include-fixed"
+ignoring duplicate directory "e:/develop/lib/gcc/../../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/include"
+ignoring nonexistent directory "e:\develop\bin\../arm-none-eabi/usr/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ e:\develop\bin\../lib/gcc/arm-none-eabi/8.2.1/include
+ e:\develop\bin\../lib/gcc/arm-none-eabi/8.2.1/include-fixed
+ e:\develop\bin\../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/include
+End of search list.

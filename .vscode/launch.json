@@ -12,7 +12,11 @@
             "type": "cortex-debug",
             "servertype": "bmp",
             "BMPGDBSerialPort": "//./COM11",
-            "device": "STM32F103C8"
+            "device": "STM32F103C8",
+            "preLaunchTask": "Make",
+            "preLaunchCommands": [
+
+            ]
             // "svdFile": "STM32F103"
         },
         {
@@ -114,4 +118,5 @@
                 "miDebuggerPath": "arm-none-eabi-gdb.exe"
             }
         }
-    }
+    ]
+}

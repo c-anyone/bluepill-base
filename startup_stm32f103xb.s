@@ -82,7 +82,7 @@ Reset_Handler:
   movs r1, #0
   b LoopCopyDataInit
 
-CopyDataInit:
+CopyDataInit: 
   ldr r3, =_sidata
   ldr r3, [r3, r1]
   str r3, [r0, r1]
